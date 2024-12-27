@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Conf 2025 Ticket Generator</title>
+    <link rel="stylesheet" type="text/css" href="ticket.css">
+</head>
+<body>
+    <p><img src="D:/Desktop/webdevelop/New folder/New folder/codingcon.jpg" width="20px" height="20px">Coding Conf</p>
+    <div class="container">
+        <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+        <p>Secure your spot at next year’s biggest coding conference.</p>
+        <div class="upload-container" id="uploadContainer">
+        <img src="D:/Desktop/webdevelop/New folder/New folder/download.png" height="50px" width="70px">
+        <p>Drag and drop your file here or click to upload</p>
+        <input type="file" id="fileInput" accept="image/png, image/jpeg">
+        <div id="preview">
+            <img id="previewImage" src="" alt="Uploaded File Preview">
+        </div>
+    </div>
+    <p align="left"><small>Upload your photo (JPG or PNG, max size: 500KB).</small></p>
+
+        <p align="left">Full Name:</p>
+        <input type="text" id="fullName" name="Full Name">
+        <p align="left">E-mail:-</p>
+        <input type="email" id="emailAddress" name="Email Address">
+        <p align="left">GitHub Username:-</p>
+        <input type="text" id="githubUsername" name="GitHub Username">
+
+        <button onclick="generateTicket()">Generate My Ticket</button>
+
+        <div id="ticketOutput" class="output" style="display:none;"></div>
+    </div>
+    <script type="text/javascript" src="ticket.js">
+    </script>
+</body>
+</html>
