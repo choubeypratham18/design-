@@ -1,0 +1,422 @@
+*,:after,:before{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body {
+    font-family: arial sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+.contant {
+    background-image: url(C:/Users/ADNJ/Pictures/icon/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.wrapper {
+    margin: 0px 90px 0px 50px;
+    padding: 10px;
+}
+.cta{
+    border:3px solid #fff;
+    margin: 290px 0px 0px 110px;
+    width: 40%;
+    height: 50px;
+    float: center;
+}
+.cta:hover{
+    outline: 2px solid #000;
+}
+nav{
+    display: block;
+    background-color:none;
+    color: #fff;
+    height: 150px;
+    padding: 1em;
+}
+nav a{
+    margin: 0px 0px 0px 20px;
+    padding: 0.5em;
+    text-align: center;
+    color: gray;
+    text-decoration-line: none;
+}
+.ul{
+    display: inline-flex;
+}
+.li{
+    margin: 10px 5px 50px 5px;
+    padding: 2px;
+}
+.li:hover{
+    border-radius: 20px;
+    outline-color:1px solid #ba4270;
+    text-align: center;
+}
+.image{
+    border-radius: 10px;
+    width: 20%;
+    height: 555px;
+    margin: 10px 250px;
+    float: right;
+}
+.comp__image{
+    float: right;
+}
+@media screen and (min-width: 720px) {
+    .cpoya{
+        max-width: 173px;
+        margin: 0px;
+        display: inline-block;
+        padding: .7rem 1rem;
+    }
+}
+.cpoya{
+    width: 100%;
+    background-color: #ba4270;
+    color: #fff;
+    border: 3px solid transparent;
+    border-radius: 24px;
+    display: inline-block;
+    float: right;
+    margin:0 80px 0 50px;
+    cursor: pointer;
+}
+.cpoya:focus,.cpoya :hover{
+    outline: 3px solid #000;
+}
+.cpoya:hover{
+    cursor: pointer;
+    outline: 2px solid #000;
+}
+.box{
+    margin: 0px 0px 0px 45px;
+    padding: 5px;
+}
+button,input,select,textarea{
+    font:inherit;
+}
+.form .email{
+    max-width: 330px;
+    margin: 50px auto 0px 30px;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    border-color: #ba4270;
+    display: flex;
+    box-shadow: 2px 2px 3px 2px #6c8394;
+    float: center;
+}
+.form .email:hover {
+    outline: 2px solid #ba4270;
+}
+button,input ,select, textarea {
+    font: inherit;
+    float: left;
+}
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-size: 16px;
+}
+@media screen and (min-width: 720px) {
+    .btn-schedule{
+        max-width: 173px;
+        margin: 0px 0px 15px 5px;
+        display: inline-block;
+        padding: .7rem 1rem;
+    }
+}
+.btn-schedule{
+    width: 100%;
+    height: 50px;
+    background-color: #ba4270;
+    color: #fff;
+    border: 3px solid transparent;
+    border-radius: 24px;
+    display: inline-block;
+    margin:0px 20px 0px 0px;
+    cursor: pointer;
+}
+.btn-schedule:focus,.btn-schedule :hover{
+    outline: 3px solid #000;
+}
+.btn-schedule:hover{
+    cursor: pointer;
+    outline: 2px solid #000;
+}
+@media  screen and (min-width:720px) {
+.form .email{
+    margin: 0;
+    display: inline-block;
+}
+}
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.para {
+    margin: 30px auto;
+    color: #6c8394;
+    font: inherit;
+}
+.anchor {
+    text-decoration-line: none;
+    color: #6c8394;
+}
+.anchor:hover{
+    outline:2px solid #ba42ba;
+    border-radius: 10px;
+}
+.container {
+    background-image: url(C:/Users/ADNJ/Pictures/icon/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.comp_image_container{
+    height: 400px;
+    width: 50%;
+    float: right;
+    margin: 30px auto;
+}
+.comp_image{
+    height: 300px;
+    width: 70%;
+    float: right;
+    margin: 70px 140px 0px 70px;
+    text-align: center;
+}
+.com{
+    filter: brightness(0) invert(1);
+    margin-top: 50px;
+    float: center;
+    padding:7px;
+}
+.comp {
+    width: 40%;
+    height: 400px;
+    margin: 30px 0px 0px 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+.heading {
+    font-size: 50px;
+}
+.some {
+    text-align: justify;
+}
+.about{
+    font-size: 1rem;
+    text-decoration-line: none;
+    letter-spacing: .12px;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 56px auto 0;
+    display: block;
+    max-width: 130px;
+    float: left;
+    padding: .9rem 1.8rem;
+}
+.about:focus,.about:hover{
+    background-color: #FFF;
+    color: #36536b;
+    outline: 2px solid #1B262F;
+    border: 2px solid transparent;
+}
+.cardone{
+    height: 500px;
+    width: 45%;
+}
+.description{
+    height: 500px;
+    width: 40%;
+    margin: 0 10px auto 0;
+    float: right;
+}
+.cards{
+    background-image: url(C:/Users/ADNJ/Pictures/icon/cutbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1770px;
+    width: 100%;
+}
+.cardone{
+    height: 600px;
+    width: 100%;
+}
+.cardimg{
+    height: 500px;
+    width: 40%;
+    margin: 40px 15px 50px 100px;
+}
+.description{
+    font-size: 30px;
+    height: 400px;
+    width: 30%;
+    padding: 20px;
+    margin: 80px 100px 20px 20px;
+    color: #356363;
+    float: right;
+}
+.finui{
+    margin-top: 20px;
+    height: 600px;
+}
+.uiDesc{
+    float: left;
+    font-size: 30px;
+    height: 300px;
+    width: 30%;
+    padding: 0px;
+    margin: 100px 30px 20px 110px;
+    color: #356363;
+}
+.simpleUi{
+    padding: 0px;
+    margin: 0 200px 10px 0;
+    width: 35%;
+    height: 500px;
+    float: right;
+}
+.business{
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+}
+.personal{
+    gap: none;
+    width: 30%;
+    font-size: 1rem;
+    padding: 2px;
+    text-align: center;
+    color: #356363;
+    margin: 50px 10px 0px 60px;
+}
+.banking{
+    gap: none;
+    width: 30%;
+    font-size: 1rem;
+    padding: 2px;
+    text-align: center;
+    color: #356363;
+    margin: 50px 10px 0px 0px;
+}
+.consumer{
+    gap: none;
+    width: 30%;
+    font-size: 1rem;
+    padding: 2px;
+    text-align: center;
+    color: #356363;
+    margin: 50px 10px 0px 0px;
+}
+.personalimg{
+    margin: 10px 150px 0 110px;
+    height: 150px;
+    float: inline-start;
+}
+.consum{
+    height: 130px;
+    width: 130px;
+}
+.bpara{
+    font-size: 20px;
+    text-align: justify;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    float:right;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.inform{
+    border-radius: 50px;
+    width: 40%;
+    float: right;
+    margin: 150px 30px 150px;
+}
+.ready{
+    width: 20%;
+    font-size: 40px;
+    margin: 100px;
+    color: #356363;
+}
+.footer{
+    background-image: url(C:/Users/ADNJ/Pictures/icon/bgimage.jpg);
+    width: 100%;
+    height: 200px;
+}
+.footer_nav{
+    margin: 20px;
+    text-align: center;
+    color:#FFF;
+    display: inline-flex;
+    width: 100%;
+}
+.logolink{
+    filter: brightness(0) invert(1);
+    margin: 10px;
+}
+.li2{
+    filter: brightness(0) invert(1);
+    margin: 20px 40px 30px 150px ;
+    color: #fff;
+    float: center;
+}
+.imgs{
+    filter: brightness(0) invert(1);
+    margin-top: 20px;
+    margin-left: 70px;
+    float: right;
+    width: 30%;
+    height: 35px;
+}
+.imgs:hover{
+    outline: 2px solid #ba4270;
+}
+
+@media screen and (min-width: 720px) {
+    .btn-schedule{
+        max-width: 173px;
+        margin: 0px 0px 15px 5px;
+        display: inline-block;
+        padding: .7rem 1rem;
+    }
+}
+.btn-schedule{
+    width: 100%;
+    height: 50px;
+    background-color: #ba4270;
+    color: #fff;
+    border: 3px solid transparent;
+    border-radius: 24px;
+    display: inline-block;
+    margin:0px 80px 0px 50px;
+    cursor: pointer;
+}
+.btn-schedule:focus,.btn-schedule :hover{
+    outline: 3px solid #000;
+}
+.btn-schedule:hover{
+    cursor: pointer;
+    outline: 2px solid #000;
+}
